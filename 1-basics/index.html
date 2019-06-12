@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basics</title>
+	<meta charset='utf-8'>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+	<script type='text/babel'>
+		
+ 	/*var x = 10
+		if(x)
+		{
+			let x=5
+		}
+		console.log(x) */
+
+
+		/*Template String*/ 
+
+		var firstName = 'Aman'
+		/*var s = `Hello ${firstName}. How are you?`
+		console.log(s)*/
+
+		var code = `<name>
+         <first>
+         	${firstName}
+         </first>
+		</name>`
+		//console.log(code)
+
+		//console.log('Hello'.repeat(3))
+	
+		var friends = ['bill', 'cathy']
+		var allFriends = ['anne', ...friends, 'don']
+		//console.log(allFriends)
+
+		var phonebook = {
+		'anne': 8248,
+		'bill': 2355
+	}
+	//phonebook['cathy'] = 3523
+	//console.log(phonebook)
+
+	var updatedPhonebook = {
+	...phonebook,
+	'cathy': 3352
+}
+	var green = 'Green'
+	//console.log(updatedPhonebook)
+	let colors = {
+	red: 'red',
+	'blue': 'blue',
+	green
+}
+
+//console.log(colors)
+/*	var list =[10,20,30,40]
+	for(let v of list) {
+		console.log(v)
+}*/
+	for(let ch of 'Great') {
+		//console.log(ch)
+}
+	function add(x,y=0) {
+		return x+y
+}
+	//console.log(add(1))
+
+
+/*	var person = {
+		name: 'John',
+		getname: function(){
+			return this.name
+	}
+}*/
+		//console.log(person.getname())
+
+
+		var list = [1,2,3,4];
+		var list2 = list.map(function(i){
+			return 2*i
+	})
+	//console.log(list2)
+
+		var list3 = 
+		list.filter(function(i){
+			return i%2==0
+
+	})
+		//console.log(list3)
+
+  //ARROW FUNCTION
+
+		var square = x => x*x
+		var multiply = (x,y) => x*y
+
+		//console.log(square(5))
+	
+		var person = {
+			name: 'Bill',
+			interests: ['bike','swim','surf'],
+			/*printMe(){
+				var _this = this;
+				this.interests.map(function(i){
+					console.log(_this.name+' likes to '+i)
+			})*/
+			/*printMe(){
+				this.interests.map(function(i){
+					console.log(this.name+' likes to '+i)
+				}.bind(this))
+
+		}*/
+		//arrow function doesn't have a scope
+		//printMe(){
+		//		this.interests.map(i => console.log(this.name+' likes to '+i))
+
+    //}			
+
+
+	}
+	//person.printMe()
+
+		//Destructuring
+
+	/*	var [first, ,third] = ['one', 'two', 'three', 'four']
+		console.log(first)
+		console.log(third)*/
+
+		var book = {
+			author: 'Godin',
+			title: 'Tribes',
+			price: '$20'
+	}
+
+	/*	var {author, price} = book
+		console.log(author,price)
+
+		function foo( {title})
+		{
+			console.log(title)
+		}
+
+		foo(book)*/
+
+		//class person {
+
+		//}
+
+
+
+
+		//AJAX CALL
+
+
+				//Fetch
+
+			//JS is non-blocking ,i.e,it doesn't wait for network call response
+
+				var url = "https://jsonplaceholder.typicode.com/users"
+				fetch(url)
+				.then(response => response.json())
+				.then(data => console.log(data))
+
+				console.log('hello')
+
+
+
+	</script>
+	<script src='main.js'></script>
+</head>
+<body>
+	<h1>Coding</h1>
+</body>
+</html>
