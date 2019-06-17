@@ -1,0 +1,45 @@
+
+
+
+.box button{
+	width:70px;
+	height:70px;
+	font-size:40px;
+
+}
+
+.layout{
+	width: 300px;
+	background-color: #444;
+	text-align: center;
+	margin:auto;
+	margin-top: 0px
+
+
+}
+
+#winner{
+	color:#fff;
+	border:1px white solid;
+	font: bolder 1.9em Arial, Helvetica, sans-serif;
+}
+
+header{
+	text-align: center;
+	background-color: #444;
+	margin:auto;
+	width:300px;
+	color:#fff;
+
+}
+
+#restart{
+	color:#fff;
+	background-color: #000;
+	border-radius: 25px;
+	font-size: 1em;
+	font-weight: 600
+}
+h2{
+	color:#fff;
+}

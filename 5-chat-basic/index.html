@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Basic</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCxpgf4mNoWSpZ80dAWbd9svd7nrpJnIgw",
+        authDomain: "chat-app-e2738.firebaseapp.com",
+        databaseURL: "https://chat-app-e2738.firebaseio.com",
+        projectId: "chat-app-e2738",
+        storageBucket: "chat-app-e2738.appspot.com",
+        messagingSenderId: "698868719117",
+        appId: "1:698868719117:web:ef82810e0d7ca5e6"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+    
+
+</head>
+<body>
+    <h1>Chat Basic</h1>
+    <button onClick='addUser()'>Add User</button>
+
+    <br>
+    <br>
+    <div id='chatBox'></div>
+    <br>
+    <input id='inputBox'>
+    <button onClick='send()'>Send</button>
+
+    <script src='main.js'></script>
+
+</body>
+</html>
