@@ -2,6 +2,8 @@
 
 
 
+
+
 var key = {
 	left: 37,
 	up: 38,
