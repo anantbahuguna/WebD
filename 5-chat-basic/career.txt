@@ -1,0 +1,59 @@
+To get an interview call:
+
+RESUME
+1. Work on your resume (Attached: template)
+Recruiters spend less than 7 seconds on a resume, so make your accomplishments easily discoverable.
+Put the impressive stuff near the top. Make it bold if possible.
+Keep the formatting simple. Avoid fancy layouts. (So that machines can easily parse it)
+Update your LinkedIn profile.
+
+PROJECTS
+2. Build 2-3 non-trivial projects in your free time.
+For your projects, provide the link to your website, app store, or GitHub.
+List the technologies and tools used to build the project on your resume.
+
+APPLY!!!
+3. Apply to as many jobs as possible!!!
+Full-time jobs: LINKEDIN, Indeed, Monster, etc
+Startups: ANGEL.co
+Internships: INTERNSHALA
+Also, tap into your personal or college network. Find people who work at that company via LinkedIn and feel free to send them a message.
+The more jobs you apply to, the better your chances.
+Job descriptions are not accurate. So, just apply - even if you think you don't qualify.
+Download App: https://play.google.com/store/apps/details?id=com.linkedin.android.jobs.jobseeker&hl=en_IN
+
+PRACTICE
+4. ALWAYS agree to do an interview.
+Even if you are not planning to accept the offer, still take the interview.
+It's just free practice. It will also help alleviate nervousness.
+Even you like your current job still, interview with other companies.
+
+- - - - - - - - - -
+
+To prepare for interviews:
+
+CODING PRACTICE
+1. Start practicing data-structures. Some websites for:
+Interviews: INTERVIEWBIT or LEETCODE
+Competitive Coding: HACKERRANK, CodeChef, or CodingBat etc.
+Machine Learning / Data Science: KAGGLE
+
+2. It will take about 2-3 months to get good practice.
+Solving even 5-6 problems every day will be very rewarding.
+Don't skip the easy questions. Interviews usually start with easy questions.
+Practice by TYPING and RUNNING your code.
+
+FOCUS
+3. As soon as an interview is scheduled, find company specific questions on GLASSDOOR. It is a good resource for learning about what type of questions a specific company asks during interviews. It also has salary information.
+
+THEORY
+4. A week before the interview, search on Google: "Python interview questions", "Javascript interview questions", etc (depending on your job role). Go through the theory questions.
+
+- - - - - - - - - -
+
+TIMELINE
+1. Learn something. Build projects. (3-4 months)
+2. Update resume (Attached: template)
+3. Update LinkedIn profile.
+4. Start practicing data structures online. (3-4 months)
+5. Start applying to jobs. (1 month)
