@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>SPACESHIP</title>
-	<meta charset='utf-8'>
-	<script
-			  src="https://code.jquery.com/jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous"></script>
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Basic</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
     
@@ -30,11 +28,23 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     </script>
-	<script src="main.js"></script>
+
+
+    
 
 </head>
 <body>
-	<h3>Spaceship</h3>
-	<button id = 'spaceship'></button>
+    <h1>Chat Basic</h1>
+    <button onClick='addUser()'>Add User</button>
+
+    <br>
+    <br>
+    <div id='chatBox'></div>
+    <br>
+    <input id='inputBox'>
+    <button onClick='send()'>Send</button>
+
+    <script src='main.js'></script>
+
 </body>
 </html>
