@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import fire from './scripts/fire.js'
 import Header from './components/Header'
+import LoginButton from './components/LoginButton'
 
 
 class Chat extends Component {
@@ -32,22 +33,7 @@ class Chat extends Component {
     )
  }
     
-//     componentDidMount() {
-//         fire.database().ref('messages').on('child_added',(snapshot)=>{
-//             snapshot.forEach(childSnapshot=>{
-            
-//             console.log(childSnapshot.val())
-//             this.setState({
-//                 msg: {
-//                     author: childSnapshot.val().author,
-//                     body: childSnapshot.val().body
-//                 }
-//             })
-            
-            
-//         })
-//     })
-//  }
+
 
    
 
@@ -82,7 +68,7 @@ class Chat extends Component {
     // }
     _send() {
         fire.database().ref('messages').push().set({
-            body: this.state.msg.inputChat,
+            body: this.state.inputChat,
             author: 'coding'
         })
     }
@@ -113,7 +99,12 @@ class Chat extends Component {
                 <Header myText='CHAT APP'/>
                 <br/>
                 <button className="btn waves-effect waves-light grey lighten-2"><strong><Link to = '/'>Home </Link></strong></button>
-                <br/><br/>
+                
+                            
+                            <LoginButton showProfile={false} />
+                            
+                        
+                
                 <button >ADD USER</button>
                 <br/>
                 
@@ -122,9 +113,16 @@ class Chat extends Component {
                     {this.state.msg.length!==1?
                         this.state.msg.map((message,i)=>{
                            return (
-                               <div key = {i}>
-                                   {message.body} - {message.author}
+                               i!=0?
+                               <div className="row " key = {i}>
+                               <div className="col s12 m4 l4">
+                                 <div className="card-panel teal">
+                                   <span className="white-text">{message.body} - {message.author}
+                                   </span>
+                                 </div>
                                </div>
+                             </div>:
+                             <br key={i}/>
                            )
                         })
                         :

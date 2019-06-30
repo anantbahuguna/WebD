@@ -60,8 +60,8 @@ componentDidMount() {
                 <Header myText='Live Editor'/>
                 <br/>
                 <button className="btn waves-effect waves-light grey lighten-2"><strong><Link to = '/'>Home </Link></strong></button>
-                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>{this.state.mode}</a>
-                <ul id='dropdown1' class='dropdown-content'>
+                <a className='dropdown-trigger btn' href='#' data-target='dropdown1'>{this.state.mode}</a>
+                <ul id='dropdown1' className='dropdown-content'>
                     <li onClick={()=>this.setState({mode:'javascript'})}>Javascript</li>
                     <li onClick={()=>this.setState({
                         mode: 'python'
