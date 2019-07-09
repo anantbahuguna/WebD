@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyEditor from './components/MyEditor'
+
 import App from './App'
 
 

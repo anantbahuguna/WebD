@@ -1,13 +1,14 @@
 import firebase from 'firebase'
 
 var config = {
-    apiKey: "AIzaSyCxpgf4mNoWSpZ80dAWbd9svd7nrpJnIgw",
-    authDomain: "chat-app-e2738.firebaseapp.com",
-    databaseURL: "https://chat-app-e2738.firebaseio.com",
-    projectId: "chat-app-e2738",
-    storageBucket: "chat-app-e2738.appspot.com",
-    messagingSenderId: "698868719117",
-    appId: "1:698868719117:web:ef82810e0d7ca5e6"
+  apiKey: "AIzaSyDSShwdLKNb4MnXOfr1ICTZQjNgApgeULc",
+  authDomain: "live-editor-639bd.firebaseapp.com",
+  databaseURL: "https://live-editor-639bd.firebaseio.com",
+  projectId: "live-editor-639bd",
+  storageBucket: "live-editor-639bd.appspot.com",
+  messagingSenderId: "163272016909",
+  appId: "1:163272016909:web:0f1ed402cecbf1fe"
+
   };
 
 

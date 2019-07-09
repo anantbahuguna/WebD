@@ -1,5 +1,6 @@
 import React from 'react';
 import MyEditor from './components/MyEditor';
+import 'materialize-css/dist/css/materialize.min.css'
 
 
 
